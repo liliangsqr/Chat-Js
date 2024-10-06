@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="Fr-fr">
+<head>
+  <meta charset="UTF-8">
+  <title>ChatBob</title>
+  <link rel="stylesheet" href="Styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<div class="background">
+  <div class="conversation-globale" id="user2">
+
+    <p>BOB</p>
+
+    <div class="boite-dialogue" id="boite-dialogue">
+      <p></p>
+    </div>
+
+    <div class="zone-envoi">
+      <textarea placeholder="Ecrire le text ici" id="message"></textarea>
+
+      <button id="submit-button" onclick="EnvoyerMessage('user2')">
+        <i class="fa-solid fa-paper-plane"></i>
+      </button>
+      <script src="js/Script-chat.js"></script>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+</body>
+</html>
